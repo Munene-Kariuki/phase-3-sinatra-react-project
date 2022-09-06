@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2022_09_06_102306) do
 
   create_table "books", force: :cascade do |t|
     t.string "name"
-    t.string "description"
+    t.string "preview"
     t.integer "price"
     t.integer "author_id"
   end
