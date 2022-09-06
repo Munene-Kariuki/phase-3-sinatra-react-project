@@ -28,6 +28,11 @@ Author.create(
   about: "Lily G. N. Mabura is a Kenyan writer known for her short story How Shall We Kill the Bishop, which was shortlisted for the Caine Prize in 2010."
 )
 
+Author.create(
+  name: "Muthoni Garland",
+  about: "She is a member of Concerned Kenyan Writers, a coalition whose purpose is to use our writing skills to help save Kenya in this polarized time."
+)
+
 #create books
 
 Book.create(
@@ -35,6 +40,13 @@ Book.create(
   preview: "A story of love, suffering, grief, separation and reunion, and the contemplation of life, death, and life after death. It is a masterful tapestry of characters whose lives intertwine to weave an intriguing plot.",
   author_id: 4,
   price: 665
+)
+
+Book.create(
+  name: "Time of war: A childhood memoir",
+  preview: "Beginning in the late 1930s, this memoir describes the author's day-to-day life as the fifth child of his father's third wife in a family that included 24 children born to four different mothers.",
+  author_id: 1,
+  price: 675
 )
 
 Book.create(
@@ -80,6 +92,13 @@ Book.create(
 )
 
 Book.create(
+  name: "Tracking the scent of my mother",
+  preview: "The story is set in rural central Kenya with the protagonist being a girl who seeks revenge on her family after after the destruction of her innocence.",
+  author_id: 6,
+  price: 500
+)
+
+Book.create(
   name: "How shall we kill the bishop",
   preview: "An artist in mourning for a brother who died fighting in Bosnia, a restless young woman alerted to the possibility of life outside her tight knit community -Lily Mabura's first collection of short stories deals with characters whose fates fascinate and alarm.",
   author_id: 5,
@@ -91,6 +110,24 @@ Book.create(
   preview: "The novel concerns the Mau Mau liberation struggle during the latter days of British colonial rule and attempts, by the actions of the main protagonists, to show how Mau Mau was organized and why it took so long for the colonial government to defeat them",
   author_id: 2,
   price: 700
+)
+
+Book.create(
+  name: "Halfway between Nairobi and Dudori",
+  preview: "Wanjeri and her unemployed husband Murage live in Naivasha in reduced circumstances despite their education and previous professional circumstances. Naivasha is halfway between Nairobi (where Wanjeri wants to be) and Dundori (where her husband wishes to be).",
+  author_id: 6,
+  price: 600
+)
+
+Book.create(
+  name: "The big chiefs",
+  preview: "Men would often ask themselves and one another questions that were often impossible to understand and even harder to answer. Did bad politics breed poverty or did poverty breed bad politics? Friends argued and sometimes came to blows over their views.",
+  author_id: 2,
+  price: 575
+)
+
+Book.create(
+  name:
 )
 
 
