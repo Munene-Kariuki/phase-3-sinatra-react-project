@@ -65,7 +65,7 @@ Book.create(
 
 Book.create(
   name: "The boy gift",
-  preview: "After fathering nine daughters, all Toma Tomei wanted was to get a son. That way he would be made the Chief Councillor and leader of his people. But Old Jonah is dead set against it."
+  preview: "After fathering nine daughters, all Toma Tomei wanted was to get a son. That way he would be made the Chief Councillor and leader of his people. But Old Jonah is dead set against it.",
   author_id: 2,
   price: 800
 )
@@ -77,7 +77,7 @@ Book.create(
   price: 850
 )
 
-Book.create (
+Book.create(
   name: "River and the source",
   preview: "The River and the Source follows four generations of Kenyan women in a rapidly changing country and society.",
   author_id: 4,
@@ -86,7 +86,7 @@ Book.create (
 
 Book.create(
   name: "Kill me quick",
-  preview: "The story follows Meja and Mania, two young boys who move to the city after obtaining their secondary school diplomas. They hope to find jobs in order to support their families back home. Initially unsuccessful, the pair live in dumpsters, eating rotten fruit and stale cakes, unable to return home as failures."
+  preview: "The story follows Meja and Mania, two young boys who move to the city after obtaining their secondary school diplomas. They hope to find jobs in order to support their families back home. Initially unsuccessful, the pair live in dumpsters, eating rotten fruit and stale cakes, unable to return home as failures.",
   author_id: 2,
   price: 800
 )
@@ -127,7 +127,17 @@ Book.create(
 )
 
 Book.create(
-  name:
+  name: "Game of silence",
+  preview: "The “game of silence” that the title refers to is explained as a traditional practice where all the children must remain quiet while the adults are discussing important matters.",
+  author_id: 3,
+  price: 525
+)
+
+Book.create(
+  name: "The pretoria conspiracy",
+  preview: "Colonel Willem Stewart de Veer flies in the face of convention, and segregation, by marrying a coloured woman. His family disown him; but they meet again, this time on opposing sides in the political struggle.",
+  author_id: 5,
+  price: 625
 )
 
 
