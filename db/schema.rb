@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 2022_09_06_102306) do
 
   create_table "authors", force: :cascade do |t|
     t.string "name"
-    t.integer "age"
+    t.string "about"
   end
 
   create_table "books", force: :cascade do |t|
