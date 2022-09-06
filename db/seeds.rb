@@ -79,5 +79,19 @@ Book.create(
   price: 800
 )
 
+Book.create(
+  name: "How shall we kill the bishop",
+  preview: "An artist in mourning for a brother who died fighting in Bosnia, a restless young woman alerted to the possibility of life outside her tight knit community -Lily Mabura's first collection of short stories deals with characters whose fates fascinate and alarm.",
+  author_id: 5,
+  price: 500
+)
+
+Book.create(
+  name: "Carcase of the hounds",
+  preview: "The novel concerns the Mau Mau liberation struggle during the latter days of British colonial rule and attempts, by the actions of the main protagonists, to show how Mau Mau was organized and why it took so long for the colonial government to defeat them",
+  author_id: 2,
+  price: 700
+)
+
 
 puts "✅ Done seeding!"
