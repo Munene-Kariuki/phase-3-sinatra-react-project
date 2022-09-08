@@ -14,12 +14,12 @@ class ApplicationController < Sinatra::Base
 
   get '/authors' do
     authors = Author.all
-    authors.to_json
+    authors.to_json(include: :books)
   end  
 
   get '/books/by_price' do 
     books = Book.by_price
-    books.to_json
+    books.to_json(include: :author)
   end  
 
   get '/books/:id' do 
@@ -29,7 +29,7 @@ class ApplicationController < Sinatra::Base
 
   get '/authors/:id' do 
     author = Author.find(params[:id])
-    author.to_json
+    author.to_json(include: :books)
   end  
 
   #Post requests
