@@ -62,6 +62,17 @@ class ApplicationController < Sinatra::Base
     author = Author.find(params[:id])
     author.destroy
     author.to_json
-  end  
+  end 
+  
+  #Update
+  patch '/messages/:id' do
+    book = Book.find(params[:id])
+    book.update(
+      preview: params[:preview],
+      author_id: params[:author_id],
+      price: params[:price]
+    )
+    book.to_json
+  end 
 
 end
